@@ -114,8 +114,9 @@ public class Heartbeat extends JFrame{
     int height = Integer.parseInt(args[1]);
 
     Heartbeat h = new Heartbeat(width, height);
-    Scanner s = new Scanner(System.in);
-    s.nextLine();
+    // Remove comments to require a newline after starting to begin simulation
+    // Scanner s = new Scanner(System.in);
+    // s.nextLine();
     h.run(1000);
   }
 }
