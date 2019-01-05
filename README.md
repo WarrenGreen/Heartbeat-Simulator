@@ -9,4 +9,4 @@ Simulates the synchronization of heartbeat cells or fireflies as described in [S
 
 `javac *.java`
 
-`java Hearbeat 50 50`
+`java Heartbeat 50 50`
